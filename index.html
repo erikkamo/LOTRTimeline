@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- meta tags and title -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <!-- external and on-page CSS goes here -->
+  <link rel="stylesheet" href="styles.css" media="all">
+  <style>
+    /* on-page CSS, if any, goes here */
+  </style>
+
+  <!-- external and on-page JavaScript goes here -->
+  <script type="text/javascript" src="scripts.js" defer></script>
+  <script>
+    // on-page JavaScript, if any, goes here
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-gradient-to-r from-yellow-600 to-yellow-300">
+
+  <!-- component -->
+  <div class="container">
+    <div class="flex justify-center">
+      <div class="text-4xl font-bold text-blue-600 my-5">
+        The Lord of the Rings Timeline!
+      </div>
+    </div>
+
+    <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Frodo Inherets the Ring of Power</h3>
+          <p id="d1" class="leading-tight text-justify"></p>
+          <div id="1" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Frodo Leaves the Shire</h3>
+          <p id="d2" class="leading-tight text-justify"></p>
+          <div id="2" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+      </div>
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">The Fellowship is Formed in Rivendel</h3>
+          <p id="d3" class="leading-tight text-justify"></p>
+          <div id="3" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">The Fellowship is Disbanded</h3>
+          <p id="d4" class="leading-tight text-justify"></p>
+          <div id="4" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Merry and Pippin Escape the Orcs</h3>
+          <p id="d5" class="leading-tight text-justify"></p>
+          <div id="5" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+      </div>
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Merry and Pippin are Reunited with Gandalf and Others</h3>
+          <p id="d6" class="leading-tight text-justify"></p>
+          <div id="6" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Gandalf and Pippin Ride to Minas Tirith</h3>
+          <p id="d7" class="leading-tight text-justify"></p>
+          <div id="7" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+      </div>
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Frodo and Sam Pass Through Minas Morgul</h3>
+          <p id="d8" class="leading-tight text-justify"></p>
+          <div id="8" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Aragorn, Legolas, and Gimli enter the Dimult Under the Mountain</h3>
+          <p id="d9" class="leading-tight text-justify"></p>
+          <div id="9" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+      </div>
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Orcs Attack Minas Tirith</h3>
+          <p id="d10" class="leading-tight text-justify"></p>
+          <div id="10" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Orcs are Defeated at Minas Tirith</h3>
+          <p id="d11" class="leading-tight text-justify"></p>
+          <div id="11" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+      </div>
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Frodo and Sam Enter Mordor</h3>
+          <p id="d12" class="leading-tight text-justify"></p>
+          <div id="12" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Aragorn is Crowned King of Gondor</h3>
+          <p id="d13" class="leading-tight text-justify"></p>
+          <div id="13" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+      </div>
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Aragorn marches his Armies to the Black Gate of Mordor</h3>
+          <p id="d14" class="leading-tight text-justify"></p>
+          <div id="14" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Frodo and Sam Cross the Platau of Gorgoroth to Mt. Doom</h3>
+          <p id="d15" class="leading-tight text-justify"></p>
+          <div id="15" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+      </div>
+      <!-- left -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg mb-1">Gollum Falls into Mt. Doom Destroying the Ring of Power</h3>
+          <p id="d16" class="leading-tight text-justify"></p>
+          <div id="16" class="border border-2 rounded px-2 py-2 mt-2 text-center hover:bg-gray-600">Expand</div>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

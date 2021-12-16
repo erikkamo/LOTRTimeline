@@ -1,0 +1,100 @@
+<h1 class="title">A Timeline of the Events of The Lord of the Rings</h1>
+
+  <div class="timeline">
+    <div class="container left">
+      <div class="content">
+        <h2>Frodo Inherets the Ring of Power</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Frodo Leaves the Shire</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>The Fellowship is Formed</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>The Fellowship is Disbanded</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Mary and Pippin Escape the Orcs</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Merry and Pippin are Reuinited with Gandalf, Aragorn, Legolas, and Gimlir</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Gandalf and Pippin Ride to Minas Tirith</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Frodo and Sam Pass through Minas Morgul</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Aragorn, Legolas and Gimli enter the Dimault Under the Mountain</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Orcs Attack Minas Tirith</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Orcs are Defeated at Minas Tirith</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Frodo and Sam Enter Mordor </h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Aragorn is Crowned King of Gondor</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Men March on the Black Gate of Mordor</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Frodo and Sam Cross Plateau of Gorgoroth</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Gollum falls into Mt Doom and The Ring is Destroyed</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+  </div>
